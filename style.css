@@ -50,6 +50,23 @@ input[type=text] {
   right: 0;
 }
 
+.color_box {
+  /*position: absolute;
+  bottom: 0;*/
+}
+.color_div {
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  width: 19%;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 1% 1% 0;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+
 
 
 input[type="text"]:focus,
@@ -94,6 +111,7 @@ input[type="text"].focus {
   /*display: none;*/
 }
 
+/*slider*/
 
 input[type=range] {
   -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
