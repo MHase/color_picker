@@ -1,3 +1,6 @@
+// require('../css/style.scss');
+// import style from '../css/main.scss';
+
 var red, green, blue, opacity;
 document.addEventListener("DOMContentLoaded", function(event) {
   setRGB();
