@@ -1,3 +1,5 @@
+// @import "test";
+// $primaryColor: #eeccff;
 @import url('https://fonts.googleapis.com/css?family=Rambla');
 
 body {
@@ -52,9 +54,15 @@ input[type=text] {
   right: 0;
 }
 
-.color_box {
+.color_box, .invert_box {
 position: absolute;
-margin: 0;
+width: 100%;
+}
+.color_box {
+  margin: 0;
+}
+.invert_box {
+  bottom: 0;
 }
 .color_div {
   position: relative;
@@ -67,10 +75,7 @@ margin: 0;
   border-radius: 5px;
   text-align: center;
 }
-.invert_box {
-  position: absolute;
-  bottom: 0;
-}
+
 
 
 
