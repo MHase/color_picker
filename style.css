@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rambla');
 
 body {
-  font-family: 'Rambla', sans-serif;
+  /*font-family: 'Rambla', sans-serif;*/
+  font-family: Arial;
+  font-size: 14px;
 }
 
 .color_container, .container {
@@ -51,8 +53,8 @@ input[type=text] {
 }
 
 .color_box {
-  /*position: absolute;
-  bottom: 0;*/
+position: absolute;
+margin: 0;
 }
 .color_div {
   position: relative;
@@ -63,8 +65,11 @@ input[type=text] {
   line-height: 80px;
   margin: 0 1% 1% 0;
   border-radius: 5px;
-  color: black;
   text-align: center;
+}
+.invert_box {
+  position: absolute;
+  bottom: 0;
 }
 
 
